@@ -793,6 +793,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .little-card:nth-child(3) {
+  opacity: 0;
   background-image: url("https://images.unsplash.com/photo-1548546738-8509cb246ed3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2F0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
 }
 
@@ -802,7 +803,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .little-card:nth-child(7) {
   background-image: url("./assets/img/check.png");
-  opacity: 0, 2;
+  opacity: 0;
 }
 
 .card-group:hover > .card {

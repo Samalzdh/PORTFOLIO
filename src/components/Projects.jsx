@@ -2,9 +2,9 @@ import "animate.css";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
 import MCBD from "../assets/img/MCBD.svg";
+import apple from "../assets/img/apple.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import grec from "../assets/img/grec.png";
 import ProjectCard from "./ProjectCard.jsx";
 
 const Projects = () => {
@@ -15,14 +15,14 @@ const Projects = () => {
       imgUrl: MCBD,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Apple",
+      description: "Tu doutes ?",
+      imgUrl: apple,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "BestGrec.com",
+      description: "Premier comparateur de kebab en france",
+      imgUrl: grec,
     },
   ];
 
@@ -53,13 +53,13 @@ const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">2023</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">2024?</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">2050?</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content

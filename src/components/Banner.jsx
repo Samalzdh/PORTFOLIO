@@ -65,7 +65,8 @@ const Banner = () => {
                 >
                   <span className="tagline">Bienvenu sur le portfolio de</span>
                   <h1>
-                    {`Sam Alizadeh`}{" "}
+                    {`Sam Alizadeh`}
+                    <br></br>{" "}
                     <span
                       className="txt-rotate"
                       dataperiod="100"
