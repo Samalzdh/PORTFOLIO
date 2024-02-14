@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
-import headerImg from "../assets/img/header-img.svg";
+import SkillCard from "./SkillCard";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -12,7 +12,7 @@ const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = ["React Js", "Ruby on Rails 7", "HTML/CSS"];
-  const period = 2000;
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -68,7 +68,7 @@ const Banner = () => {
                     {`Sam Alizadeh`}{" "}
                     <span
                       className="txt-rotate"
-                      dataPeriod="1000"
+                      dataperiod="100"
                       data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
                     >
                       <span className="wrap">{text}</span>
@@ -96,7 +96,7 @@ const Banner = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img src={headerImg} alt="Header Img" />
+                  <SkillCard />
                 </div>
               )}
             </TrackVisibility>

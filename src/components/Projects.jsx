@@ -1,8 +1,8 @@
 import "animate.css";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
+import MCBD from "../assets/img/MCBD.svg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import ProjectCard from "./ProjectCard.jsx";
@@ -10,24 +10,9 @@ import ProjectCard from "./ProjectCard.jsx";
 const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "MCBD",
+      description: "Site marchant pour une librairie",
+      imgUrl: MCBD,
     },
     {
       title: "Business Startup",
@@ -53,7 +38,7 @@ const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Projects</h2>
+                  <h2>Projets</h2>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industrys
